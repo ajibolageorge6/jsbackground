@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+
+
+    <h1>COLOR CHANGER</h1>
+  
+    <div onclick="color()" action="#" class="scriptbody">
+    <input id="input" class="form" type="score" placeholder="ENTER YOUR COLOR">
+    
+    <button class="button-19">Enter</button>
+</div>
+
+
+
+
+    <script>
+        function color() {
+            const input = document.getElementById("input").value
+            const body = document.getElementById("body")
+            document.body.style.backgroundColor= input  
+            return false
+        }
+        </script>
+        
+</body>
+</html>
